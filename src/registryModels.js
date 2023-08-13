@@ -17,7 +17,8 @@ export const registryModels = {
         "13b-llama2-chat-q5_K_S",
         "13b-llama2-chat-q6_K",
         "13b-llama2-chat-q8_0",
-        "latest"
+        "latest",
+        "--test-cron-update--",
     ],
     "llama-2-13b-chat": [
         "q2_K"
