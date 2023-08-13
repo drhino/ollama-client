@@ -17,8 +17,7 @@ export const registryModels = {
         "13b-llama2-chat-q5_K_S",
         "13b-llama2-chat-q6_K",
         "13b-llama2-chat-q8_0",
-        "latest",
-        "--test-cron-update--",
+        "latest"
     ],
     "llama-2-13b-chat": [
         "q2_K"
@@ -476,7 +475,8 @@ export const registryModels = {
         "7b-q3_K_S",
         "7b-q4_0",
         "7b-q4_K_S",
-        "7b-q5_0"
+        "7b-q5_0",
+        "7b-q5_K_M"
     ],
     "wizard-vicuna-uncensored": [
         "13b",
