@@ -7,6 +7,8 @@
 </div>
 <br><br>
 
+> A GUI is provided under the <a href="gui/">/gui</a> directory.
+
 This library is designed for ease-of-use. The input arguments and return types are validated. When an error occurs, an {Error} is thrown.
 
 The goal is to provide a client that can grow along with the development of Ollama. With an interface that does not break between versions.
