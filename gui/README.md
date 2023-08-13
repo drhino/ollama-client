@@ -1,6 +1,6 @@
 ## A small interface exploring the API endpoints.
 
-<img src="./screenshot.jpg" alt="Screenshot of the Ollama GUI.">
+<img src="./screenshot.png" alt="Screenshot of the Ollama GUI." width="512">
 
 This is incomplete but will be updated asap. \
 Currently only the `Ask Ollama` page exists. The others will be added.
