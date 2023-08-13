@@ -1,4 +1,4 @@
-## A small interface exploring the API endpoints.
+## A GUI exploring the API endpoints.
 
 <img src="./screenshot.png" alt="Screenshot of the Ollama GUI." width="512">
 
