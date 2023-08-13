@@ -1,0 +1,311 @@
+/** @author git:drhino */
+/** @version lib:0.0.1 / file:0.0.1 */
+
+/* stylesheet for the client interface (web gui) */
+
+body {
+	background-color: #eee;
+	margin: 0;
+}
+
+body, textarea {
+	font-family: ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji;
+}
+
+header, main, aside {
+	background-color: #fff;
+	box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .05);
+}
+
+header > div, main, aside {
+	max-width: 768px;
+	box-sizing: border-box;
+}
+
+header {
+	padding: 8px 0;
+	height: 120px;
+}
+
+header > div {
+	margin: 0 auto;
+	padding: 0 16px;
+}
+
+/*header > div > img {
+	position: absolute;
+}*/
+
+header > div > nav {
+
+}
+
+header > div > nav > ul {
+	margin: 0;
+	height: 100px;
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+}
+
+header > div > nav > ul > li {
+	display: inline-block;
+}
+
+header > div > nav > ul > li > a {
+	font-size: 16px;
+	color: #000;
+	text-decoration: none;
+	margin-left: 32px;
+	padding: 24px 0;
+	position: relative;
+}
+
+header > div > nav > ul > li > a:after {
+	content: '';
+	width: 8px;
+	height: 8px;
+	border-radius: 4px;
+	background-color: #4285f4;
+	position: absolute;
+	left: 50%;
+	margin-left: -4px;
+	top: 56px;
+	opacity: 0;
+	transition: opacity .15s;
+}
+
+header > div > nav > ul > li > a:hover:after {
+	opacity: 1;
+}
+
+main, aside {
+	border-radius: 8px;
+	margin: 32px auto;
+	padding: 16px;
+}
+
+main > h2 {
+	margin: 0;
+	margin-bottom: 16px;
+	font-weight: 500;
+}
+
+main > section, aside {
+	display: flex;
+	gap: 16px;
+}
+
+main > section > div,
+aside > div {
+	width: 50%;
+}
+
+main > section > div > pre {
+	margin: 0;
+}
+
+main > section > div > div > textarea {
+	width: 100%;
+}
+
+main > section > div > div > textarea.error {
+	border: 2px solid red;
+}
+
+pre {
+    text-wrap: wrap;
+}
+
+#error {
+	margin: 0;
+}
+
+.text-right {
+	text-align: right;
+}
+
+select {
+	padding: 8px;
+	border-radius: 7px;
+	border: 1px solid #999;
+}
+
+#stop, #update, button {
+	padding: 12px;
+	border-radius: 7px;
+	border: 1px solid #dc3545;
+	cursor: pointer;
+	background-color: #dc3545;
+	color: #fff;
+	box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.15),0 1px 1px rgba(0, 0, 0, 0.075);
+	transition: background-color .125s ease-in-out, border-color .15s ease-in-out;
+}
+
+#update, button {
+	font-size: 20px;
+	padding: 5px;
+	border-color: #4285f4;
+	background-color: #4285f4;
+}
+
+#update:hover, #update:focus, button:hover, button:focus {
+	background-color: #0b5ed7;
+	border-color: #0a58ca;
+}
+
+#update:active, button:active {
+	background-color: #0a58ca;
+	border-color: #0a53be;
+	box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+	transition: none;
+}
+
+#update:disabled, button:disabled {
+	background-color: #0d6efd;
+	border-color: #0d6efd;
+	opacity: .65;
+	cursor: not-allowed;
+}
+
+#update:focus-visible, button:focus-visible {
+	box-shadow: 0 0 0 0.25rem rgba(49, 132, 253, .5);
+	outline: none;
+}
+
+button {
+	font-size: 15px;
+	padding: 8px 24px;
+	-webkit-font-smoothing: antialiased;
+}
+
+#ask {
+	float: right;
+	margin-top: 12px;
+}
+
+#stop > span {
+	width: 9px;
+	height: 9px;
+	background-color: #fff;
+	display: block;
+}
+
+#stop:hover, #stop:focus {
+	background-color: #bb2d3b;
+	border-color: #b02a37;
+}
+
+#stop:active {
+	background-color: #b02a37;
+	border-color: #a52834;
+	box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+	transition: none;
+}
+
+#stop:disabled {
+	background-color: #dc3545;
+	border-color: #dc3545;
+	opacity: .65;
+	cursor: not-allowed;
+}
+
+#stop:focus-visible {
+	box-shadow: 0 0 0 0.25rem rgba(225, 83, 97, .5);
+	outline: none;
+}
+
+#status {
+	width: 8px;
+	height: 8px;
+	border-radius: 10px;
+	background-color: #ccc;
+	display: inline-block;
+	margin-top: 1px;
+	margin-right: 6px;
+	border: 1px solid #ccc;
+}
+
+#status.offline {
+	background-color: red;
+	border-color: #fb7159;
+}
+
+#status.online {
+	background-color: lightgreen;
+	border-color: #83e383;
+}
+
+#server {
+	padding: 9px 8px;
+    border-radius: 7px;
+    border: 1px solid #999;
+    position: relative;
+    top: -2px;
+}
+
+#server, #models, #stop, #update {
+	height: 35px;
+}
+
+#stop, #update {
+	width: 35px;
+}
+
+#logo {
+	cursor: pointer;
+}
+
+#logo, #logo-ollama, #logo-v8 {
+	position: absolute;
+	overflow: visible;
+}
+
+#logo:hover,
+#logo:hover > #logo-ollama,
+#logo:hover > #logo-v8 {
+	animation: rideOrDie .075s linear infinite;
+}
+
+#logo:hover > #logo-ollama {
+	animation-delay: .0375s;
+}
+
+@keyframes rideOrDie {
+	0%, 100% {
+		transform: translateY(0);
+	}
+	50% {
+		transform: translateY(-1px);
+	}
+}
+
+.logo-ollama-eye {
+	transform: scaleY(1) translateY(0);
+	transform-origin: center;
+}
+
+footer {
+	text-align: center;
+	font-size: 12px;
+	color: #777;
+	margin-bottom: 32px;
+}
+
+footer a {
+	color: inherit;
+	text-decoration: none;
+}
+
+footer a:hover, footer a:focus {
+	text-decoration: underline;
+}
+
+textarea {
+	resize: vertical;
+	padding: 8px;
+	min-height: 66px;
+	max-height: 600px;
+	border: 1px solid #999;
+	border-radius: 7px;
+}
