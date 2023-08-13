@@ -1,3 +1,10 @@
+<p align="center">
+  <a href="#">
+    <img alt="..." width="128" height="128" src="./ollama-v8-framed.svg">
+    <h1 align="center">Ollama V8</h1>
+  </a>
+</p>
+
 # ollama-client
 Ollama API client in ECMAScript / JavaScript / ESM.
 
