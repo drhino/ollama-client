@@ -1,27 +1,73 @@
-<p align="center">
+<div align="center">
   <a href="#">
     <img alt="..." width="128" height="128" src="./ollama-v8-framed.svg">
-    <h1 align="center">Ollama V8</h1>
+    <h1 align="center">Ollama API Client</h1>
+    <p>Ollama API client in ECMAScript / JavaScript / ESM.</p>
   </a>
-</p>
+</div>
+<br><br>
 
-# ollama-client
-Ollama API client in ECMAScript / JavaScript / ESM.
+This library is designed for ease-of-use. The input arguments and return types are validated. When an error occurs, an {Error} is thrown.
 
-> I'm probably writing the missing docs whilst you are reading this. \
-> Some parts of the code are still being tested and modifed. \
-> However, the signatures/methods defined here should/will not change. \
-> It's perfectly fine to start using the library. \
-> Updates will follow asap.
-
-This library performs extensive validation so you don't need to worry about it. \
-Hence, you do not need to validate or typescript any arguments in your app. You can just pass them along and catch the {Error}.
-
-The goal is to provide a client that can grow along with the development of Ollama. And to provide an interface that does not break between versions.
+The goal is to provide a client that can grow along with the development of Ollama. With an interface that does not break between versions.
 Therefor, unless absolutely necessary, the signatures of the methods will not change (but additional arguments could be added).
 
-No compilation required. \
-No external dependencies.
+The Ollama API Client is standalone and does not require any external dependencies.
+
+# Quick Start.
+
+```js
+import Ollama from './OllamaRequest.js'
+
+const ollama = new Ollama('http://127.0.0.1:11434')
+
+const properties = {
+  model: "llama2",
+  prompt: "Can you talk like a pirate?",
+}
+
+try {
+  const result = await ollama.generate(properties, obj => {
+    console.log(obj.response) // token
+  })
+
+  console.log(result)
+} catch (e) {
+  console.error(e)
+}
+```
+
+# API Reference.
+
+## Methods:
+
+```js
+ollama.generate(body: object, fn: ?function): Promise<object>
+ollama.createModelFromFile(name: string, path: string, fn: ?function): Promise<undefined>
+ollama.listModels(): Promise<array[{ name: string, modified_at: string, size: int }]>
+ollama.copyModel(source: string, destination: string): Promise<undefined>
+ollama.deleteModel(model: string): Promise<undefined>
+ollama.pullModel(model: string): Promise<undefined>
+ollama.embedding(model: string, prompt: string): Promise<array[float]>
+
+ollama.stop(): undefined
+ollama.ping(timeout: int): Promise<bool>
+ollama.watch(interval: int): undefined
+ollama.ignore(): undefined
+```
+
+## Getters:
+
+```js
+ollama.url // returns the string defined in the constructor
+```
+
+## Events:
+
+```js
+ollama.ononline()
+ollama.onoffline(reason: string)
+```
 
 # Usage.
 
@@ -65,15 +111,9 @@ const ollama = new Ollama('http://127.0.0.1:11434')
 
 > The reason you want to use a module is because modules are scoped. This means they don't expose anything to the `window`.
 
-# API.
+# API Documentation.
 
 ## Send a question / generate a response:
-Signature:
-> (beginners can ignore these, they are helpful for intermediate to advanced users)
-```js
-ollama.generate(body: object, fn: ?function): Promise<object>
-```
-Finally, here comes the fun part.
 ```js
 // Uses the *exact* same pattern as the request body
 const body = {
