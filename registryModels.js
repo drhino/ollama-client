@@ -1,9 +1,5 @@
 /** @author git:drhino */
-/** @version 0.0.1 */
-
-// Also available at: https://gist.github.com/mchiang0610/b959e3c189ec1e948e4f6a1f737a1fc5
-
-// ... @TODO: must all be lowercase
+/** @version lib:0.0.1 / file:0.0.2 */
 
 export const registryModels = {
     "codeup": [
@@ -91,6 +87,21 @@ export const registryModels = {
         "13b-q6_K",
         "13b-q8_0",
         "13b-raw",
+        "13b-text",
+        "13b-text-q2_K",
+        "13b-text-q3_K_L",
+        "13b-text-q3_K_M",
+        "13b-text-q3_K_S",
+        "13b-text-q4_0",
+        "13b-text-q4_1",
+        "13b-text-q4_K_M",
+        "13b-text-q4_K_S",
+        "13b-text-q5_0",
+        "13b-text-q5_1",
+        "13b-text-q5_K_M",
+        "13b-text-q5_K_S",
+        "13b-text-q6_K",
+        "13b-text-q8_0",
         "70b",
         "70b-chat",
         "70b-chat-q2_K",
@@ -116,6 +127,18 @@ export const registryModels = {
         "70b-q5_K_M",
         "70b-q5_K_S",
         "70b-raw",
+        "70b-text",
+        "70b-text-q2_K",
+        "70b-text-q3_K_L",
+        "70b-text-q3_K_M",
+        "70b-text-q3_K_S",
+        "70b-text-q4_0",
+        "70b-text-q4_1",
+        "70b-text-q4_K_M",
+        "70b-text-q4_K_S",
+        "70b-text-q5_0",
+        "70b-text-q5_K_M",
+        "70b-text-q5_K_S",
         "7b",
         "7b-chat",
         "7b-chat-q2_K",
@@ -147,9 +170,25 @@ export const registryModels = {
         "7b-q6_K",
         "7b-q8_0",
         "7b-raw",
+        "7b-text",
+        "7b-text-q2_K",
+        "7b-text-q3_K_L",
+        "7b-text-q3_K_M",
+        "7b-text-q3_K_S",
+        "7b-text-q4_0",
+        "7b-text-q4_1",
+        "7b-text-q4_K_M",
+        "7b-text-q4_K_S",
+        "7b-text-q5_0",
+        "7b-text-q5_1",
+        "7b-text-q5_K_M",
+        "7b-text-q5_K_S",
+        "7b-text-q6_K",
+        "7b-text-q8_0",
         "chat",
         "latest",
-        "raw"
+        "raw",
+        "text"
     ],
     "nous-hermes-llama2": [
         "latest"
@@ -414,6 +453,25 @@ export const registryModels = {
         "7b-v1.5-q6_K",
         "7b-v1.5-q8_0",
         "latest"
+    ],
+    "wizard-math": [
+        "13b",
+        "13b-q2_K",
+        "13b-q3_K_L",
+        "13b-q3_K_M",
+        "13b-q3_K_S",
+        "13b-q4_0",
+        "13b-q4_1",
+        "13b-q4_K_M",
+        "13b-q4_K_S",
+        "13b-q5_0",
+        "13b-q5_1",
+        "13b-q5_K_M",
+        "13b-q5_K_S",
+        "13b-q6_K",
+        "70b-q2_K",
+        "70b-q3_K_M",
+        "70b-q3_K_S"
     ],
     "wizard-vicuna-uncensored": [
         "13b",
