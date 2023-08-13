@@ -242,7 +242,8 @@ export const registryModels = {
     "orca-mini": [
         "13b-q2_K",
         "13b-q3_K_L",
-        "13b-q3_K_M"
+        "13b-q3_K_M",
+        "13b-q3_K_S"
     ],
     "orca": [
         "13b",
