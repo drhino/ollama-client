@@ -258,7 +258,9 @@ export const registryModels = {
         "3b-q5_1",
         "7b-q2_K",
         "7b-q3_K_L",
-        "7b-q3_K_S"
+        "7b-q3_K_S",
+        "7b-q4_0",
+        "7b-q4_1"
     ],
     "orca": [
         "13b",
