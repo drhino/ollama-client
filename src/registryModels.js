@@ -514,6 +514,7 @@ export const registryModels = {
         "70b-q2_K",
         "70b-q3_K_M",
         "70b-q3_K_S",
+        "7b",
         "7b-q2_K",
         "7b-q3_K_L",
         "7b-q3_K_M",
@@ -524,7 +525,8 @@ export const registryModels = {
         "7b-q5_K_M",
         "7b-q5_K_S",
         "7b-q6_K",
-        "7b-q8_0"
+        "7b-q8_0",
+        "latest"
     ],
     "wizard-vicuna-uncensored": [
         "13b",
