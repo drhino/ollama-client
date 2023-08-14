@@ -259,6 +259,7 @@ export const registryModels = {
         "13b-v3-q4_1",
         "13b-v3-q4_K_M",
         "13b-v3-q4_K_S",
+        "13b-v3-q5_0",
         "3b-q4_0",
         "3b-q4_1",
         "3b-q5_0",
