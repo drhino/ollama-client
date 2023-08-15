@@ -516,6 +516,7 @@ export const registryModels = {
         "70b-q3_K_M",
         "70b-q3_K_S",
         "70b-q4_0",
+        "70b-q4_1",
         "7b",
         "7b-q2_K",
         "7b-q3_K_L",
