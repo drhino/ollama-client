@@ -240,6 +240,7 @@ export const registryModels = {
         "latest"
     ],
     "orca-mini": [
+        "13b",
         "13b-q2_K",
         "13b-q3_K_L",
         "13b-q3_K_M",
@@ -252,6 +253,7 @@ export const registryModels = {
         "13b-q5_1",
         "13b-q5_K_M",
         "13b-q6_K",
+        "13b-v3",
         "13b-v3-q2_K",
         "13b-v3-q3_K_L",
         "13b-v3-q3_K_M",
@@ -266,6 +268,7 @@ export const registryModels = {
         "13b-v3-q5_K_S",
         "13b-v3-q6_K",
         "13b-v3-q8_0",
+        "3b",
         "3b-q4_0",
         "3b-q4_1",
         "3b-q5_0",
@@ -281,6 +284,7 @@ export const registryModels = {
         "70b-v3-q5_K_M",
         "70b-v3-q5_K_S",
         "70b-v3-q6_K",
+        "7b",
         "7b-q2_K",
         "7b-q3_K_L",
         "7b-q3_K_S",
@@ -294,6 +298,7 @@ export const registryModels = {
         "7b-q5_K_S",
         "7b-q6_K",
         "7b-q8_0",
+        "7b-v3",
         "7b-v3-q2_K",
         "7b-v3-q3_K_L",
         "7b-v3-q3_K_M",
@@ -306,7 +311,8 @@ export const registryModels = {
         "7b-v3-q5_1",
         "7b-v3-q5_K_S",
         "7b-v3-q6_K",
-        "7b-v3-q8_0"
+        "7b-v3-q8_0",
+        "latest"
     ],
     "orca": [
         "13b",
