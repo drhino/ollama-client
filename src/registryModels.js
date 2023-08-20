@@ -19,8 +19,22 @@ export const registryModels = {
         "13b-llama2-chat-q8_0",
         "latest"
     ],
-    "llama-2-13b-chat": [
-        "q2_K"
+    "everythinglm": [
+        "13b",
+        "13b-16k",
+        "13b-16k-q2_K",
+        "13b-16k-q3_K_L",
+        "13b-16k-q3_K_M",
+        "13b-16k-q3_K_S",
+        "13b-16k-q4_0",
+        "13b-16k-q4_1",
+        "13b-16k-q4_K_S",
+        "13b-16k-q5_1",
+        "13b-16k-q5_K_M",
+        "13b-16k-q5_K_S",
+        "13b-16k-q6_K",
+        "13b-16k-q8_0",
+        "latest"
     ],
     "llama2-uncensored": [
         "70b",
@@ -69,21 +83,6 @@ export const registryModels = {
         "13b-chat-q5_K_S",
         "13b-chat-q6_K",
         "13b-chat-q8_0",
-        "13b-q2_K",
-        "13b-q3_K_L",
-        "13b-q3_K_M",
-        "13b-q3_K_S",
-        "13b-q4_0",
-        "13b-q4_1",
-        "13b-q4_K_M",
-        "13b-q4_K_S",
-        "13b-q5_0",
-        "13b-q5_1",
-        "13b-q5_K_M",
-        "13b-q5_K_S",
-        "13b-q6_K",
-        "13b-q8_0",
-        "13b-raw",
         "13b-text",
         "13b-text-q2_K",
         "13b-text-q3_K_L",
@@ -112,18 +111,6 @@ export const registryModels = {
         "70b-chat-q5_0",
         "70b-chat-q5_K_M",
         "70b-chat-q5_K_S",
-        "70b-q2_K",
-        "70b-q3_K_L",
-        "70b-q3_K_M",
-        "70b-q3_K_S",
-        "70b-q4_0",
-        "70b-q4_1",
-        "70b-q4_K_M",
-        "70b-q4_K_S",
-        "70b-q5_0",
-        "70b-q5_K_M",
-        "70b-q5_K_S",
-        "70b-raw",
         "70b-text",
         "70b-text-q2_K",
         "70b-text-q3_K_L",
@@ -152,21 +139,6 @@ export const registryModels = {
         "7b-chat-q5_K_S",
         "7b-chat-q6_K",
         "7b-chat-q8_0",
-        "7b-q2_K",
-        "7b-q3_K_L",
-        "7b-q3_K_M",
-        "7b-q3_K_S",
-        "7b-q4_0",
-        "7b-q4_1",
-        "7b-q4_K_M",
-        "7b-q4_K_S",
-        "7b-q5_0",
-        "7b-q5_1",
-        "7b-q5_K_M",
-        "7b-q5_K_S",
-        "7b-q6_K",
-        "7b-q8_0",
-        "7b-raw",
         "7b-text",
         "7b-text-q2_K",
         "7b-text-q3_K_L",
@@ -184,11 +156,7 @@ export const registryModels = {
         "7b-text-q8_0",
         "chat",
         "latest",
-        "raw",
         "text"
-    ],
-    "nous-hermes-llama2": [
-        "latest"
     ],
     "nous-hermes": [
         "13b",
@@ -239,6 +207,24 @@ export const registryModels = {
         "7b-llama2-q8_0",
         "latest"
     ],
+    "open-orca-platypus2": [
+        "13b",
+        "13b-q2_K",
+        "13b-q3_K_L",
+        "13b-q3_K_M",
+        "13b-q3_K_S",
+        "13b-q4_0",
+        "13b-q4_1",
+        "13b-q4_K_M",
+        "13b-q4_K_S",
+        "13b-q5_0",
+        "13b-q5_1",
+        "13b-q5_K_M",
+        "13b-q5_K_S",
+        "13b-q6_K",
+        "13b-q8_0",
+        "latest"
+    ],
     "orca-mini": [
         "13b",
         "13b-q2_K",
@@ -273,10 +259,14 @@ export const registryModels = {
         "3b-q4_1",
         "3b-q5_0",
         "3b-q5_1",
+        "70b",
+        "70b-v3",
         "70b-v3-q2_K",
         "70b-v3-q3_K_L",
         "70b-v3-q3_K_M",
         "70b-v3-q3_K_S",
+        "70b-v3-q4_0",
+        "70b-v3-q4_1",
         "70b-v3-q4_K_M",
         "70b-v3-q4_K_S",
         "70b-v3-q5_0",
@@ -314,7 +304,7 @@ export const registryModels = {
         "7b-v3-q8_0",
         "latest"
     ],
-    "orca": [
+    "stable-beluga": [
         "13b",
         "13b-q2_K",
         "13b-q3_K_L",
@@ -322,7 +312,6 @@ export const registryModels = {
         "13b-q3_K_S",
         "13b-q4_0",
         "13b-q4_1",
-        "13b-q4_K_M",
         "13b-q4_K_S",
         "13b-q5_0",
         "13b-q5_1",
@@ -330,77 +319,6 @@ export const registryModels = {
         "13b-q5_K_S",
         "13b-q6_K",
         "13b-q8_0",
-        "3b",
-        "3b-q4_0",
-        "3b-q4_1",
-        "3b-q5_0",
-        "3b-q5_1",
-        "3b-q8_0",
-        "7b",
-        "7b-q2_K",
-        "7b-q3_K_L",
-        "7b-q3_K_M",
-        "7b-q3_K_S",
-        "7b-q4_0",
-        "7b-q4_1",
-        "7b-q4_K_M",
-        "7b-q4_K_S",
-        "7b-q5_0",
-        "7b-q5_1",
-        "7b-q5_K_M",
-        "7b-q5_K_S",
-        "7b-q6_K",
-        "7b-q8_0",
-        "7b-v3-q2_K",
-        "7b-v3-q3_K_L",
-        "7b-v3-q3_K_M",
-        "7b-v3-q3_K_S",
-        "7b-v3-q4_0",
-        "7b-v3-q4_1",
-        "7b-v3-q4_K_M",
-        "7b-v3-q4_K_S",
-        "7b-v3-q5_0",
-        "7b-v3-q5_1",
-        "7b-v3-q5_K_M",
-        "7b-v3-q5_K_S",
-        "7b-v3-q6_K",
-        "7b-v3-q8_0",
-        "latest"
-    ],
-    "stablebeluga": [
-        "13b",
-        "13b-q2_K",
-        "13b-q3_K_L",
-        "13b-q3_K_M",
-        "13b-q3_K_S",
-        "13b-q4_0",
-        "13b-q4_1",
-        "13b-q4_K_M",
-        "13b-q4_K_S",
-        "13b-q5_0",
-        "13b-q5_1",
-        "13b-q5_K_M",
-        "13b-q5_K_S",
-        "13b-q6_K",
-        "13b-q8_0",
-        "7b",
-        "7b-q2_K",
-        "7b-q3_K_L",
-        "7b-q3_K_M",
-        "7b-q3_K_S",
-        "7b-q4_0",
-        "7b-q4_1",
-        "7b-q4_K_M",
-        "7b-q4_K_S",
-        "7b-q5_0",
-        "7b-q5_1",
-        "7b-q5_K_M",
-        "7b-q5_K_S",
-        "7b-q6_K",
-        "7b-q8_0",
-        "latest"
-    ],
-    "stablebeluga2": [
         "70b",
         "70b-q2_K",
         "70b-q3_K_L",
@@ -411,10 +329,27 @@ export const registryModels = {
         "70b-q4_K_M",
         "70b-q4_K_S",
         "70b-q5_K_M",
-        "70b-q5_K_S"
+        "70b-q5_K_S",
+        "7b",
+        "7b-q2_K",
+        "7b-q3_K_L",
+        "7b-q3_K_M",
+        "7b-q3_K_S",
+        "7b-q4_0",
+        "7b-q4_1",
+        "7b-q4_K_M",
+        "7b-q4_K_S",
+        "7b-q5_0",
+        "7b-q5_1",
+        "7b-q5_K_M",
+        "7b-q5_K_S",
+        "7b-q6_K",
+        "7b-q8_0",
+        "latest"
     ],
     "vicuna": [
         "13b",
+        "13b-16k",
         "13b-q2_K",
         "13b-q3_K_L",
         "13b-q3_K_M",
@@ -473,6 +408,7 @@ export const registryModels = {
         "33b-q6_K",
         "33b-q8_0",
         "7b",
+        "7b-16k",
         "7b-q2_K",
         "7b-q3_K_L",
         "7b-q3_K_M",
@@ -663,5 +599,63 @@ export const registryModels = {
         "70b-llama2-q3_K_M",
         "70b-llama2-q3_K_S",
         "70b-llama2-q4_0"
+    ],
+    "m/every-horrorwriter": [
+        "latest"
+    ],
+    "m/every-problemsolving": [
+        "latest"
+    ],
+    "m/every-uniquewriter": [
+        "latest"
+    ],
+    "m/justapplescript": [
+        "latest"
+    ],
+    "m/justpython": [
+        "latest"
+    ],
+    "m/kamuitest": [
+        "latest"
+    ],
+    "m/princess_jasmine": [
+        "latest"
+    ],
+    "m/pygmalion": [
+        "7b-superhot-8k-v3-q4_K_S"
+    ],
+    "m/sephiroth": [
+        "latest"
+    ],
+    "m/seraphina": [
+        "latest"
+    ],
+    "m/shambler": [
+        "latest"
+    ],
+    "m/shotsnarrator": [
+        "latest"
+    ],
+    "m/wb": [
+        "latest"
+    ],
+    "m/whitty": [
+        "latest"
+    ],
+    "mchiang/mario": [
+        "latest"
+    ],
+    "mike/discollama": [
+        "latest"
+    ],
+    "mike/llama2-function-calling": [
+        "latest"
+    ],
+    "pdevine/llama-mario": [
+        "latest"
+    ],
+    "pdevine/orca": [
+        "badboy",
+        "silly"
     ]
 }
