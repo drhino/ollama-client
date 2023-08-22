@@ -657,5 +657,17 @@ export const registryModels = {
     "pdevine/orca": [
         "badboy",
         "silly"
-    ]
+    ],
+    "llama2-chinese": [
+        "13b-chat-q2_K",
+        "13b-chat-q3_K_L",
+        "13b-chat-q3_K_M",
+        "13b-chat-q3_K_S",
+        "13b-chat-q4_K_M",
+        "13b-chat-q4_K_S"
+    ],
+    "m/thankyou-mrpresident": [
+        "latest"
+    ],
+    "pdevine/orca-mini": []
 }
