@@ -672,7 +672,20 @@ export const registryModels = {
         "13b-chat-q5_K_M",
         "13b-chat-q5_K_S",
         "13b-chat-q6_K",
-        "13b-chat-q8_0"
+        "13b-chat-q8_0",
+        "7b-chat-q2_K",
+        "7b-chat-q3_K_L",
+        "7b-chat-q3_K_M",
+        "7b-chat-q3_K_S",
+        "7b-chat-q4_0",
+        "7b-chat-q4_1",
+        "7b-chat-q4_K_M",
+        "7b-chat-q4_K_S",
+        "7b-chat-q5_0",
+        "7b-chat-q5_1",
+        "7b-chat-q5_K_M",
+        "7b-chat-q5_K_S",
+        "7b-chat-q8_0"
     ],
     "m/medllama2": [
         "latest"
@@ -685,14 +698,22 @@ export const registryModels = {
         "standard"
     ],
     "medllama2": [
+        "7b",
         "7b-q2_K",
         "7b-q3_K_L",
         "7b-q3_K_M",
         "7b-q3_K_S",
+        "7b-q4_0",
+        "7b-q4_1",
         "7b-q4_K_M",
         "7b-q4_K_S",
+        "7b-q5_0",
+        "7b-q5_1",
         "7b-q5_K_M",
-        "7b-q5_K_S"
+        "7b-q5_K_S",
+        "7b-q6_K",
+        "7b-q8_0",
+        "latest"
     ],
     "m/imnotadoctor": [
         "latest"
