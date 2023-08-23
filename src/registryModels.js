@@ -658,8 +658,43 @@ export const registryModels = {
         "badboy",
         "silly"
     ],
-    "llama2-chinese": [],
-    "m/medllama2": [],
-    "m/thankyou-mrpresident": [],
-    "pdevine/orca-mini": []
+    "llama2-chinese": [
+        "13b-chat-q2_K",
+        "13b-chat-q3_K_L",
+        "13b-chat-q3_K_M",
+        "13b-chat-q3_K_S",
+        "13b-chat-q4_0",
+        "13b-chat-q4_1",
+        "13b-chat-q4_K_M",
+        "13b-chat-q4_K_S",
+        "13b-chat-q5_0",
+        "13b-chat-q5_1",
+        "13b-chat-q5_K_M",
+        "13b-chat-q5_K_S",
+        "13b-chat-q6_K",
+        "13b-chat-q8_0"
+    ],
+    "m/medllama2": [
+        "latest"
+    ],
+    "m/thankyou-mrpresident": [
+        "latest"
+    ],
+    "pdevine/orca-mini": [
+        "latest",
+        "standard"
+    ],
+    "medllama2": [
+        "7b-q2_K",
+        "7b-q3_K_L",
+        "7b-q3_K_M",
+        "7b-q3_K_S",
+        "7b-q4_K_M",
+        "7b-q4_K_S",
+        "7b-q5_K_M",
+        "7b-q5_K_S"
+    ],
+    "m/imnotadoctor": [
+        "latest"
+    ]
 }
