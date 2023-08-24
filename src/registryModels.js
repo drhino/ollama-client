@@ -259,6 +259,7 @@ export const registryModels = {
         "3b-q4_1",
         "3b-q5_0",
         "3b-q5_1",
+        "3b-q8_0",
         "70b",
         "70b-v3",
         "70b-v3-q2_K",
@@ -685,6 +686,7 @@ export const registryModels = {
         "7b-chat-q5_1",
         "7b-chat-q5_K_M",
         "7b-chat-q5_K_S",
+        "7b-chat-q6_K",
         "7b-chat-q8_0"
     ],
     "m/medllama2": [
