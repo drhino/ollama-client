@@ -719,5 +719,23 @@ export const registryModels = {
     ],
     "m/imnotadoctor": [
         "latest"
+    ],
+    "codellama": [
+        "7b",
+        "7b-instruct",
+        "7b-instruct-q2_K",
+        "7b-instruct-q3_K_L",
+        "7b-instruct-q3_K_M",
+        "7b-instruct-q3_K_S",
+        "7b-instruct-q4_0",
+        "7b-instruct-q4_1",
+        "7b-instruct-q4_K_M",
+        "7b-instruct-q5_0",
+        "7b-instruct-q5_1",
+        "7b-instruct-q8_0",
+        "latest"
+    ],
+    "pdevine/mario": [
+        "latest"
     ]
 }
