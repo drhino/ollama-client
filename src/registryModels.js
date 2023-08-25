@@ -725,7 +725,6 @@ export const registryModels = {
         "13b-instruct-q4_0",
         "13b-instruct-q4_1",
         "13b-instruct-q5_0",
-        "13b-instruct-q5_1",
         "7b",
         "7b-instruct",
         "7b-instruct-q2_K",
@@ -759,5 +758,7 @@ export const registryModels = {
         "7b-python-q8_0",
         "latest"
     ],
-    "pdevine/mario": []
+    "pdevine/mario": [
+        "latest"
+    ]
 }
