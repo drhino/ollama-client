@@ -785,12 +785,18 @@ export const registryModels = {
         "7b-code-q5_1",
         "7b-code-q5_K_M",
         "7b-code-q5_K_S",
-        "7b-code-q8_0"
+        "7b-code-q8_0",
+        "34b"
     ],
     "pdevine/mario": [
         "latest"
     ],
     "jmorgan/mario": [
+        "latest"
+    ],
+    "phind-codellama": [
+        "34b",
+        "34b-q4_0",
         "latest"
     ]
 }
