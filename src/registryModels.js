@@ -797,6 +797,9 @@ export const registryModels = {
     "phind-codellama": [
         "34b",
         "34b-q4_0",
-        "latest"
+        "latest",
+        "34b-q4_1",
+        "34b-q5_0",
+        "34b-q5_1"
     ]
 }
