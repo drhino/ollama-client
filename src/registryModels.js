@@ -809,6 +809,12 @@ export const registryModels = {
         "34b-q4_K_S",
         "34b-q5_K_M",
         "34b-q5_K_S",
-        "34b-q8_0"
+        "34b-q8_0",
+        "34b-q6_K"
+    ],
+    "wizardcoder": [
+        "34b-python",
+        "34b-python-q4_0",
+        "34b-python-q4_1"
     ]
 }
