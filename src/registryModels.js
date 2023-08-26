@@ -800,6 +800,15 @@ export const registryModels = {
         "latest",
         "34b-q4_1",
         "34b-q5_0",
-        "34b-q5_1"
+        "34b-q5_1",
+        "34b-q2_K",
+        "34b-q3_K_L",
+        "34b-q3_K_M",
+        "34b-q3_K_S",
+        "34b-q4_K_M",
+        "34b-q4_K_S",
+        "34b-q5_K_M",
+        "34b-q5_K_S",
+        "34b-q8_0"
     ]
 }
