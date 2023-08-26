@@ -767,9 +767,30 @@ export const registryModels = {
         "13b-instruct-q4_K_M",
         "13b-instruct-q5_K_M",
         "13b-instruct-q5_K_S",
-        "13b-instruct-q6_K"
+        "13b-instruct-q6_K",
+        "13b-python",
+        "13b-python-q4_0",
+        "34b-instruct",
+        "34b-instruct-q4_0",
+        "7b-code",
+        "7b-code-q2_K",
+        "7b-code-q3_K_L",
+        "7b-code-q3_K_M",
+        "7b-code-q3_K_S",
+        "7b-code-q4_0",
+        "7b-code-q4_1",
+        "7b-code-q4_K_M",
+        "7b-code-q4_K_S",
+        "7b-code-q5_0",
+        "7b-code-q5_1",
+        "7b-code-q5_K_M",
+        "7b-code-q5_K_S",
+        "7b-code-q8_0"
     ],
     "pdevine/mario": [
+        "latest"
+    ],
+    "jmorgan/mario": [
         "latest"
     ]
 }
