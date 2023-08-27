@@ -786,7 +786,10 @@ export const registryModels = {
         "7b-code-q5_K_M",
         "7b-code-q5_K_S",
         "7b-code-q8_0",
-        "34b"
+        "34b",
+        "13b-code",
+        "13b-code-q4_0",
+        "7b-code-q6_K"
     ],
     "pdevine/mario": [
         "latest"
@@ -825,6 +828,8 @@ export const registryModels = {
         "34b-python-q4_K_M",
         "34b-python-q4_K_S",
         "34b-python-q5_K_S",
-        "34b-python-q8_0"
+        "34b-python-q8_0",
+        "34b-python-q5_K_M",
+        "34b-python-q6_K"
     ]
 }
