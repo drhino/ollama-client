@@ -815,6 +815,8 @@ export const registryModels = {
     "wizardcoder": [
         "34b-python",
         "34b-python-q4_0",
-        "34b-python-q4_1"
+        "34b-python-q4_1",
+        "34b-python-q5_0",
+        "34b-python-q5_1"
     ]
 }
