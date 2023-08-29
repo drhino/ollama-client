@@ -866,7 +866,10 @@ export const registryModels = {
         "34b-q8_0",
         "34b-q6_K",
         "34b-v2",
-        "34b-v2-q4_0"
+        "34b-v2-q4_0",
+        "34b-v2-q4_1",
+        "34b-v2-q5_0",
+        "34b-v2-q5_1"
     ],
     "wizardcoder": [
         "34b-python",
@@ -899,5 +902,8 @@ export const registryModels = {
         "13b-python-q5_K_S",
         "13b-python-q6_K",
         "13b-python-q8_0"
+    ],
+    "pdevine/thejerk": [
+        "latest"
     ]
 }
