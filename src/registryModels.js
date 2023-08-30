@@ -840,7 +840,8 @@ export const registryModels = {
         "34b-instruct-q8_0",
         "34b-instruct-q5_K_M",
         "34b-instruct-q5_K_S",
-        "34b-instruct-q6_K"
+        "34b-instruct-q6_K",
+        "13b"
     ],
     "pdevine/mario": [
         "latest"
@@ -869,7 +870,12 @@ export const registryModels = {
         "34b-v2-q4_0",
         "34b-v2-q4_1",
         "34b-v2-q5_0",
-        "34b-v2-q5_1"
+        "34b-v2-q5_1",
+        "34b-v2-q2_K",
+        "34b-v2-q3_K_L",
+        "34b-v2-q3_K_M",
+        "34b-v2-q3_K_S",
+        "34b-v2-q8_0"
     ],
     "wizardcoder": [
         "34b-python",
