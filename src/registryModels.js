@@ -893,7 +893,12 @@ export const registryModels = {
         "34b-python-q3_K_S",
         "34b-python-q5_0",
         "34b-python-q5_1",
-        "34b-python-q8_0"
+        "34b-python-q8_0",
+        "34b-python-q4_K_M",
+        "34b-python-q4_K_S",
+        "34b-python-q5_K_M",
+        "34b-python-q5_K_S",
+        "34b-python-q6_K"
     ],
     "wizardcoder": [
         "34b-python",
@@ -925,12 +930,41 @@ export const registryModels = {
         "13b-python-q5_K_M",
         "13b-python-q5_K_S",
         "13b-python-q6_K",
-        "13b-python-q8_0"
+        "13b-python-q8_0",
+        "7b-python",
+        "7b-python-q2_K",
+        "7b-python-q3_K_L",
+        "7b-python-q3_K_M",
+        "7b-python-q3_K_S",
+        "7b-python-q4_0",
+        "7b-python-q4_1",
+        "7b-python-q4_K_M",
+        "7b-python-q4_K_S",
+        "7b-python-q5_0",
+        "7b-python-q5_1",
+        "7b-python-q5_K_M",
+        "7b-python-q5_K_S",
+        "7b-python-q6_K",
+        "7b-python-q8_0",
+        "latest",
+        "python"
     ],
     "pdevine/thejerk": [
         "latest"
     ],
     "mattw/wb": [
+        "latest"
+    ],
+    "mattw/pygmalion": [
+        "latest"
+    ],
+    "mattw/sephiroth": [
+        "latest"
+    ],
+    "mattw/thankyoumrpresident": [
+        "latest"
+    ],
+    "mattw/whitty": [
         "latest"
     ]
 }
