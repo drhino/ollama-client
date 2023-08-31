@@ -687,7 +687,10 @@ export const registryModels = {
         "7b-chat-q5_K_M",
         "7b-chat-q5_K_S",
         "7b-chat-q6_K",
-        "7b-chat-q8_0"
+        "7b-chat-q8_0",
+        "7b",
+        "7b-chat",
+        "latest"
     ],
     "m/medllama2": [
         "latest"
@@ -883,7 +886,14 @@ export const registryModels = {
         "34b-python",
         "34b-python-q4_0",
         "34b-python-q4_1",
-        "34b-v2-q6_K"
+        "34b-v2-q6_K",
+        "34b-python-q2_K",
+        "34b-python-q3_K_L",
+        "34b-python-q3_K_M",
+        "34b-python-q3_K_S",
+        "34b-python-q5_0",
+        "34b-python-q5_1",
+        "34b-python-q8_0"
     ],
     "wizardcoder": [
         "34b-python",
