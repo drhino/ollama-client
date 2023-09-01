@@ -849,7 +849,17 @@ export const registryModels = {
         "34b-instruct-q5_0",
         "34b-instruct-q5_1",
         "34b-python",
-        "34b-python-q4_0"
+        "34b-python-q4_0",
+        "34b-python-q2_K",
+        "34b-python-q3_K_L",
+        "34b-python-q3_K_M",
+        "34b-python-q3_K_S",
+        "34b-python-q4_1",
+        "34b-python-q4_K_M",
+        "34b-python-q4_K_S",
+        "34b-python-q5_0",
+        "34b-python-q5_1",
+        "34b-python-q8_0"
     ],
     "pdevine/mario": [
         "latest"
@@ -971,5 +981,14 @@ export const registryModels = {
     ],
     "mattw/whitty": [
         "latest"
+    ],
+    "mattw/imnotadoctor": [
+        "latest"
+    ],
+    "mattw/shambler": [
+        "latest"
+    ],
+    "pdevine/llama2": [
+        "13b-original"
     ]
 }
