@@ -993,5 +993,8 @@ export const registryModels = {
     ],
     "pdevine/llama2": [
         "13b-original"
+    ],
+    "mike/llama2-guanaco": [
+        "7b"
     ]
 }
