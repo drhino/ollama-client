@@ -223,7 +223,8 @@ export const registryModels = {
         "13b-q5_K_S",
         "13b-q6_K",
         "13b-q8_0",
-        "latest"
+        "latest",
+        "13b-fp16"
     ],
     "orca-mini": [
         "13b",
@@ -690,7 +691,11 @@ export const registryModels = {
         "7b-chat-q8_0",
         "7b",
         "7b-chat",
-        "latest"
+        "latest",
+        "13b",
+        "13b-chat",
+        "13b-chat-fp16",
+        "7b-chat-fp16"
     ],
     "m/medllama2": [
         "latest"
