@@ -156,7 +156,10 @@ export const registryModels = {
         "7b-text-q8_0",
         "chat",
         "latest",
-        "text"
+        "text",
+        "13b-q5_0",
+        "13b-q5_1",
+        "13b-q8_0"
     ],
     "nous-hermes": [
         "13b",
