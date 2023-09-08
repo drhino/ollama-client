@@ -726,7 +726,8 @@ export const registryModels = {
         "7b-q5_K_S",
         "7b-q6_K",
         "7b-q8_0",
-        "latest"
+        "latest",
+        "7b-fp16"
     ],
     "m/imnotadoctor": [
         "latest"
