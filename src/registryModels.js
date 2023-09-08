@@ -34,7 +34,8 @@ export const registryModels = {
         "13b-16k-q5_K_S",
         "13b-16k-q6_K",
         "13b-16k-q8_0",
-        "latest"
+        "latest",
+        "13b-16k-q4_K_M"
     ],
     "llama2-uncensored": [
         "70b",
