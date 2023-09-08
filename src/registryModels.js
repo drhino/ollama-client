@@ -307,7 +307,9 @@ export const registryModels = {
         "7b-v3-q5_K_S",
         "7b-v3-q6_K",
         "7b-v3-q8_0",
-        "latest"
+        "latest",
+        "7b-v3-fp16",
+        "7b-v3-q5_K_M"
     ],
     "stable-beluga": [
         "13b",
