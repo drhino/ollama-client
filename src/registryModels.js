@@ -974,7 +974,9 @@ export const registryModels = {
         "7b-python-q6_K",
         "7b-python-q8_0",
         "latest",
-        "python"
+        "python",
+        "13b-python-fp16",
+        "7b-python-fp16"
     ],
     "pdevine/thejerk": [
         "latest"
