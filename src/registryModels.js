@@ -172,7 +172,18 @@ export const registryModels = {
         "13b-q4_K_S",
         "13b-q5_K_M",
         "13b-q5_K_S",
-        "13b-q6_K"
+        "13b-q6_K",
+        "70b-q2_K",
+        "70b-q3_K_L",
+        "70b-q3_K_M",
+        "70b-q3_K_S",
+        "70b-q4_0",
+        "70b-q4_1",
+        "70b-q4_K_M",
+        "70b-q4_K_S",
+        "70b-q5_0",
+        "70b-q5_K_M",
+        "70b-q5_K_S"
     ],
     "nous-hermes": [
         "13b",
