@@ -1047,5 +1047,26 @@ export const registryModels = {
     ],
     "mike/llama2-guanaco": [
         "7b"
+    ],
+    "f0rodo/mario": [
+        "latest"
+    ],
+    "mattw/alpacacielo": [
+        "ggml-q3_K_M"
+    ],
+    "mattw/guanaco-13b-uncensored": [
+        "latest"
+    ],
+    "mattw/mythalion": [
+        "latest"
+    ],
+    "mattw/pushtest": [
+        "latest"
+    ],
+    "mattw/pygmalion2": [
+        "latest"
+    ],
+    "pdevine/mythalion": [
+        "latest"
     ]
 }
