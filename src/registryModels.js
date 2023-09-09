@@ -35,7 +35,8 @@ export const registryModels = {
         "13b-16k-q6_K",
         "13b-16k-q8_0",
         "latest",
-        "13b-16k-q4_K_M"
+        "13b-16k-q4_K_M",
+        "13b-16k-q5_0"
     ],
     "llama2-uncensored": [
         "70b",
@@ -160,7 +161,18 @@ export const registryModels = {
         "text",
         "13b-q5_0",
         "13b-q5_1",
-        "13b-q8_0"
+        "13b-q8_0",
+        "13b-q2_K",
+        "13b-q3_K_L",
+        "13b-q3_K_M",
+        "13b-q3_K_S",
+        "13b-q4_0",
+        "13b-q4_1",
+        "13b-q4_K_M",
+        "13b-q4_K_S",
+        "13b-q5_K_M",
+        "13b-q5_K_S",
+        "13b-q6_K"
     ],
     "nous-hermes": [
         "13b",
