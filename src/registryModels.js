@@ -1071,5 +1071,8 @@ export const registryModels = {
     ],
     "mattw/spicyboros-7b": [
         "q3_K_M"
+    ],
+    "mattw/spicyboros-7b-ggml": [
+        "q3_K_M"
     ]
 }
