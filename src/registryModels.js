@@ -1068,5 +1068,8 @@ export const registryModels = {
     ],
     "pdevine/mythalion": [
         "latest"
+    ],
+    "mattw/spicyboros-7b": [
+        "q3_K_M"
     ]
 }
