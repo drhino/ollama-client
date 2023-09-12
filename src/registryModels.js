@@ -1075,5 +1075,8 @@ export const registryModels = {
     ],
     "mattw/spicyboros-7b-ggml": [
         "q3_K_M"
+    ],
+    "mattw/openhermes-13b": [
+        "latest"
     ]
 }
