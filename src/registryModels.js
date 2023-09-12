@@ -1078,5 +1078,30 @@ export const registryModels = {
     ],
     "mattw/openhermes-13b": [
         "latest"
+    ],
+    "falcon": [
+        "180b-text",
+        "180b-text-q4_0",
+        "7b",
+        "7b-instruct",
+        "7b-instruct-fp16",
+        "7b-instruct-q4_0",
+        "7b-instruct-q4_1",
+        "7b-instruct-q5_0",
+        "7b-instruct-q5_1",
+        "7b-instruct-q8_0",
+        "7b-text",
+        "7b-text-fp16",
+        "7b-text-q4_0",
+        "7b-text-q4_1",
+        "7b-text-q5_0",
+        "7b-text-q5_1",
+        "7b-text-q8_0",
+        "instruct",
+        "latest",
+        "text"
+    ],
+    "pdevine/bob": [
+        "latest"
     ]
 }
