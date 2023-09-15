@@ -1109,7 +1109,15 @@ export const registryModels = {
         "40b-instruct-q4_1",
         "40b-instruct-q5_0",
         "40b-instruct-q5_1",
-        "40b-instruct-q8_0"
+        "40b-instruct-q8_0",
+        "40b-instruct-fp16",
+        "40b-text",
+        "40b-text-fp16",
+        "40b-text-q4_0",
+        "40b-text-q4_1",
+        "40b-text-q5_0",
+        "40b-text-q5_1",
+        "40b-text-q8_0"
     ],
     "pdevine/bob": [
         "latest"
