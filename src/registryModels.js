@@ -1124,5 +1124,8 @@ export const registryModels = {
     ],
     "mattw/puma": [
         "latest"
+    ],
+    "jmorgan/tinyllama": [
+        "latest"
     ]
 }
