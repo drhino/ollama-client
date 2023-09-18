@@ -1120,7 +1120,8 @@ export const registryModels = {
         "40b-text-q8_0",
         "180b-text-q4_1",
         "180b-text-q5_0",
-        "180b-text-q5_1"
+        "180b-text-q5_1",
+        "180b-text-q8_0"
     ],
     "pdevine/bob": [
         "latest"
